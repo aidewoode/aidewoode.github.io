@@ -1,0 +1,35 @@
+.flex {
+  display: flex;
+}
+
+.flex > .flex__item {
+  appearance: none;
+}
+
+.flex-inline {
+  display: inline-flex;
+}
+
+.flex--justify-between {
+  justify-content: space-between;
+}
+
+.flex--align-center {
+  align-items: center;
+}
+
+.flex__item--shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex__item--shrink-1 {
+  flex-shrink: 1;
+}
+
+.flex__item--grow-0 {
+  flex-grow: 0;
+}
+
+.flex__item--grow-1 {
+  flex-grow: 1;
+}

@@ -1,0 +1,24 @@
+.index {
+  .logo {
+    width: 90px;
+    margin-right: 20px;
+  }
+
+  .work {
+    margin: 40px 0;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .index {
+    .logo {
+      width: 75px;
+    }
+  }
+}
+
+@import 'flex';
