@@ -4,3 +4,4 @@ _site
 .envrc
 /.direnv
 /.gems
+.DS_Store
