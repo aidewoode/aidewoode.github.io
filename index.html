@@ -2,12 +2,14 @@
 layout: default
 ---
 <div class='post index'>
-  <p>Hi, I'am Ed.</p> 
+  <p>Hi, I'am Ed.</p>
   <p>I create quality apps, there are my works.</p>
 
   <div class='flex flex--align-center work'>
     <a href='https://github.com/aidewoode/black_candy' class='flex flex--align-center flex__item--shrink-0'>
-      <img class='logo' src='{{ '/assets/images/black_candy_logo.png' | relative_url }}' alt='Black candy logo'>
+      <div class='logo'>
+        <img src='/assets/images/black_candy_logo.png' alt='Black candy logo'>
+      </div>
     </a>
     <div>
       <strong><a href='https://github.com/aidewoode/black_candy'>Black Candy</a></strong>
@@ -16,12 +18,26 @@ layout: default
   </div>
 
   <div class='flex flex--align-center work'>
-    <a href='https://aidewoode.com/vesper_app/' class='flex flex--align-center flex__item--shrink-0'>
-      <img class='logo' src='{{ '/assets/images/vesper_logo.png' | relative_url }}' alt='Vesper logo'>
+    <a href='/vesper_app' class='flex flex--align-center flex__item--shrink-0'>
+      <div class='logo'>
+        <img src='/assets/images/vesper_logo.png' alt='Vesper logo'>
+      </div>
     </a>
     <div>
-      <strong><a href='https://aidewoode.com/vesper_app/'>Vesper</a></strong>
+      <strong><a href='/vesper_app'>Vesper</a></strong>
       <p>Better white noise.</p>
+    </div>
+  </div>
+
+  <div class='flex flex--align-center work'>
+    <a href='/dropd_app' class='flex flex--align-center flex__item--shrink-0'>
+      <div class='logo'>
+        <img src='/assets/images/dropd_logo.png' alt='DropD logo'>
+      </div>
+    </a>
+    <div>
+      <strong><a href='/dropd_app'>DropD</a></strong>
+      <p>Guitar tuner for all your needs.</p>
     </div>
   </div>
 </div>
