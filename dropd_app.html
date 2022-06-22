@@ -5,7 +5,7 @@ app_title: DropD
 
 <div class='post app_page'>
   <div class='flex flex--align-center'>
-    <div class='logo'>
+    <div class='logo flex__item--shrink-0'>
       <img src='/assets/images/dropd_logo.png' alt='App logo' />
     </div>
     <div>
@@ -15,6 +15,13 @@ app_title: DropD
       </a>
     </div>
   </div>
+
+  <picture>
+    <source srcset='/assets/images/dropd_screenshot_mobile_dark.png' media='(max-width: 480px) and (prefers-color-scheme: dark)'>
+    <source srcset='/assets/images/dropd_screenshot_dark.png' media='(prefers-color-scheme: dark)'>
+    <source srcset='/assets/images/dropd_screenshot_mobile.png' media='(max-width: 480px)'>
+    <img class='screenshot' src='/assets/images/dropd_screenshot.png' alt='App screenshot'>
+  </picture>
 
   <p>DropD is a fantastic and powerful guitar tuner app with minimal design that help you tune your guitar more easily.</p>
   <p>Included features:</p>

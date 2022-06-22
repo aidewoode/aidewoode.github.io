@@ -24,3 +24,9 @@
   mask-image: url('../assets/images/logo_mask.svg');
   mask-size: cover;
 }
+
+@media screen and (prefers-color-scheme: dark) {
+  .logo:after {
+    background-image: url('../assets/images/logo_mask_border_dark.svg');
+  }
+}
