@@ -1,0 +1,32 @@
+.logo {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin-right: 50px;
+}
+
+.logo:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/logo_mask_border.svg');
+  background-size: cover;
+}
+
+.logo img {
+  margin: 0;
+  -webkit-mask-image: url('../assets/images/logo_mask.svg');
+  -webkit-mask-size: cover;
+  mask-image: url('../assets/images/logo_mask.svg');
+  mask-size: cover;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  .logo:after {
+    background-image: url('../assets/images/logo_mask_border_dark.svg');
+  }
+}
